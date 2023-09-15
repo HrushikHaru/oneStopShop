@@ -39,7 +39,7 @@ To run this application locally, you'll need to have Node.js, npm, Java, and MyS
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/OneStopShop.git
+   git clone https://github.com/HrushikHaru/oneStopShop.git
 2. cd frontend
 3. npm install
 4. cd ..
