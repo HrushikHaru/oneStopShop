@@ -1,0 +1,64 @@
+.productContainer {
+  position: relative;
+  overflow: hidden;
+  padding: 2.6rem;
+  max-width: 114rem;
+}
+
+.carouselContainer {
+  padding: 0 1rem;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.carouselContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.preBtn,
+.postBtn {
+  border: none;
+  width: 6rem;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+
+.postBtn {
+  right: 0;
+}
+
+.preBtn p,
+.postBtn p {
+  font-size: 5rem;
+  background-color: rgba(0, 0, 0, 0.419);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .productContainer {
+    max-width: 86rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .productContainer {
+    max-width: 59rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .productContainer {
+    max-width: 33rem;
+  }
+}

@@ -1,0 +1,84 @@
+.product {
+  height: 57rem;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.product:hover {
+  transform: scale(105%);
+}
+
+.imgContainer {
+  width: 25rem;
+  height: 36rem;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.discount {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.carouselComp {
+  position: relative;
+}
+
+.wishList,
+.wishListActive {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 4rem;
+  height: 4rem;
+  z-index: 11;
+}
+
+.wishList svg {
+  height: 3rem;
+  width: 3rem;
+  fill: white;
+  stroke: black;
+  cursor: pointer;
+}
+
+.wishListActive svg {
+  height: 3rem;
+  width: 3rem;
+  fill: red;
+  cursor: pointer;
+}
+
+.modal {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}

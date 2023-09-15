@@ -1,0 +1,123 @@
+.productsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.productsGrid a {
+  text-decoration: none;
+  color: black;
+}
+
+.product {
+  height: 50rem;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 25rem;
+  height: 36rem;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.discount {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.btns a {
+  text-decoration: none;
+}
+
+.btns button {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logInMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+.logInMessage p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.logInMessage span {
+  font-size: 1.5rem;
+}
+
+.logInMessage svg {
+  font-size: 4rem;
+}
+
+.cart {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 790px) {
+  .productsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .productsGrid {
+    grid-template-columns: 1fr;
+    max-width: 40rem;
+  }
+}

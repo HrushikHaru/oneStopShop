@@ -1,0 +1,31 @@
+.nav {
+  background-color: white;
+  border-radius: 1rem;
+  height: max-content;
+  position: sticky;
+  top: 2rem;
+}
+
+.lists {
+  list-style: none;
+  text-decoration: none;
+}
+
+.lists li {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.lists a:global(.active) li {
+  color: white;
+  background-color: black;
+  transition: all 0.3s ease-in;
+}

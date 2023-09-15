@@ -1,0 +1,144 @@
+.navigation {
+  background-color: white;
+}
+
+.container {
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoContainer {
+  width: 10rem;
+  height: 8rem;
+}
+
+.logoContainer img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.loginBtn {
+  padding: 0.5rem;
+  background-color: #7950f2;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.loginBtn:hover {
+  transform: scale(110%);
+}
+
+.loginBtn:active {
+  transform: scale(95%);
+}
+
+.sections {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections svg {
+  font-size: 4rem;
+  cursor: pointer;
+  position: relative;
+  color: black;
+}
+
+.sectionList {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.sectionList li:hover {
+  color: #aaa;
+}
+
+.navigate {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navigate a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigate p {
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #7950f2;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.userNav {
+  position: absolute;
+  width: 9rem;
+  height: 8rem;
+  background-color: #7950f2;
+  z-index: 100;
+  top: 105%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+}
+
+.userNav p {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.shoppingCart {
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCart p {
+  font-size: 2rem;
+  color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .navigate p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .navigate p {
+    font-size: 1.2rem;
+  }
+
+  .sections {
+    gap: 1rem;
+  }
+}

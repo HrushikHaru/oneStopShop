@@ -1,0 +1,72 @@
+.login {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.login h2 {
+  font-size: 3rem;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.login label {
+  display: inline-block;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+.login input {
+  font-size: 2rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.login button {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.login button:hover {
+  transform: scale(110%);
+}
+
+.login button:active {
+  transform: scale(110%);
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.change {
+  font-size: 2rem;
+  color: blue;
+  cursor: pointer;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 840px) {
+  .login label {
+    width: 15rem;
+  }
+}

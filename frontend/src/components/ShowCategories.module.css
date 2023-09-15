@@ -1,0 +1,10 @@
+.category {
+  padding: 4rem;
+  font-size: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.category svg {
+  font-size: 4rem;
+}

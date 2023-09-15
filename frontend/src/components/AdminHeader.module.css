@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.headerImg {
+  height: 10rem;
+  width: 15rem;
+}
+
+.headerImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  font-size: 3rem;
+  font-weight: 700;
+}

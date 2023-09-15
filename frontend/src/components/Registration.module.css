@@ -1,0 +1,62 @@
+.registration {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.registration h2 {
+  font-size: 3rem;
+}
+
+.registration form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.registration label {
+  display: inline-block;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+.registration input {
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  border: 1px solid black;
+}
+
+.registration button {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.registration button:hover {
+  transform: scale(110%);
+}
+
+.registration button:active {
+  transform: scale(110%);
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.change {
+  font-size: 2rem;
+  color: blue;
+  cursor: pointer;
+}

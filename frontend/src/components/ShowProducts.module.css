@@ -1,0 +1,56 @@
+.table {
+  padding: 1rem;
+  height: 2rem;
+  overflow-y: scroll;
+}
+
+.section {
+  height: 60rem;
+  overflow-y: scroll;
+  margin: 0 2rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.table td,
+tr,
+th {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.productImg {
+  height: 18rem;
+  width: 15rem;
+}
+
+.productImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fields textarea {
+  resize: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.fields select {
+  outline: none;
+  font-size: 2rem;
+}
+
+.fields label {
+  font-size: 2rem;
+}
+
+.categories {
+  display: flex;
+  gap: 3rem;
+}

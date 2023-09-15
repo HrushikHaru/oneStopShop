@@ -1,0 +1,51 @@
+.section {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h1 {
+  font-size: 3rem;
+}
+
+.message {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  row-gap: 2rem;
+}
+
+.orders p {
+  font-size: 1.5rem;
+}
+
+.orders div {
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.productDetails p {
+  font-weight: 500;
+}
+
+.confirmed {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmed svg {
+  height: 3rem;
+  width: 3rem;
+}

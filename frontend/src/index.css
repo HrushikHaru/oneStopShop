@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: HSL(200, 33%, 96%); */
+  background-color: rgb(248, 249, 246);
+}
+
+.globalMarginForAdmin {
+  margin: 0 2rem;
+  background-color: white;
+}

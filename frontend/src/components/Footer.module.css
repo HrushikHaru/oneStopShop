@@ -1,0 +1,27 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.footer h2 {
+  font-size: 3rem;
+}
+
+.footer svg {
+  font-size: 4rem;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}

@@ -1,0 +1,10 @@
+.admin {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20fr 70fr;
+  position: relative;
+}

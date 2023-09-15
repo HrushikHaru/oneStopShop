@@ -1,0 +1,70 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.categories p {
+  font-size: 2rem;
+}
+
+.category {
+  display: flex;
+  gap: 1rem;
+}
+
+.category svg {
+  font-size: 3rem;
+}
+
+.product {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.product label {
+  font-weight: 500;
+  width: 20rem;
+  font-size: 1.8rem;
+}
+
+.product input {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+.product button {
+  width: 8rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s all;
+  padding: 0.8rem;
+}
+
+.product button:hover {
+  transform: scale(105%);
+}
+
+.product button:active {
+  transform: scale(95%);
+}
+
+.subCategory {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.subCategory select {
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+}
